@@ -2,7 +2,8 @@
 
 ## Desarrollo de proyecto en la asignatura de Implementación de sistemas de la Licenciatura de Informática 
 
-### Descripción de su proyecto
+### Descripción de su proyecto 
+Se llevara a a cabo la realizacion de una terminal API
 
 ### Funcionalidades
 
