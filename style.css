@@ -1,0 +1,85 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62%;
+}
+
+.container {
+    background-color: aliceblue;
+}
+
+.container nav {
+
+    width: 100%;
+    padding: 15px;
+    background-color: aliceblue;
+    margin-bottom: 30px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: green;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (280px, 280px);
+    margin: auto;
+    max-width: 1100px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.productos {
+    border: solid thin green;
+    background-color: bisque;
+}
+
+.producto img {
+    width: 100px;
+    height: 170px;
+}
+
+.descripcion {
+    font-size: 1.6rem;
+}
+
+.descripcion p {
+    font-size: 1.8rem;
+}
+
+.precio {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.precio p {
+    font-size: 1.8rem;
+}
+
+.descripcion button {
+    padding: 1rem;
+    width: 100%;
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    color:aquamarine;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.descripcion button:hover {
+    background-color: aquamarine;
+    transition: all .3s;
+}

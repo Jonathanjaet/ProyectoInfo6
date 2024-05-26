@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Proyecto</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="text-body-secondary fs-5 fw-bold"> EcoShop</span> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+            
+
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ropa</a></li>
+                <li><a class="dropdown-item" href="#">Electrónica</a></li>
+                <li><a class="dropdown-item" href="#">Hogar</a></li>
+                <li><a class="dropdown-item" href="#">Jugetes</a></li>
+             </ul>
+
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#Acerca_de">Acerca de nosotros</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contacto">Contacto</a>
+            </li>
+
+          </ul>
+
+          <div class="dropdown">
+            <button class="btn btn-outline-dark mt-3" type="button" id="dropdownCarrito" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+              </svg>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownCarrito" id="menuCarrito">
+              <!-- Aquí se listarán los productos en el carrito -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <body>
+
+      
+
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-sm-1 col-md-4 col-xl-3">
+                  <div class="card mb-4" style="width: 20rem;">
+                    <img src="./images/ropa1.jpg" class="card-img-top" alt="Imagen playera 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Playera</h5>
+                      <p class="card-text">$15.00</p>
+                      <button type="button" class="btn btn-primary agregar-carrito" data-producto="Producto 1">Agregar al Carrito</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1 col-md-4 col-xl-3">
+                  <div class="card mb-4" style="width: 18rem;"">
+                    <img src="./images/Ropa2.jpg" class="card-img-top" alt="Imagen Producto 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Sudadera</h5>
+                      <p class="card-text">$25.00</p>
+                      <button type="button" class="btn btn-primary agregar-carrito" data-producto="Producto 2">Agregar al Carrito</button>
+                    </div>
+                  </div>
+                </div>
+                 
+              </div>
+            </div>
+
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/carrito.js"></script>
+
+  </body>
+
+  
+</html>
